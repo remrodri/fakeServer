@@ -1,107 +1,109 @@
-[
-  {
-    "id": "1",
-    "name": "Silla de Oficina Ergónomica",
-    "description": "Silla de oficina con soporte lumbar ajustable y reposabrazos acolchados para mayor comodidad durante largas horas de trabajo.",
-    "price": 120.99,
-    "category": "Muebles de Oficina",
-    "materials": ["Cuero sintético", "Madera", "Metal"],
-    "dimensions": {
-      "width": "60 cm",
-      "height": "120 cm",
-      "depth": "60 cm"
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Silla de Oficina Ergónomica",
+      "description": "Silla de oficina con soporte lumbar ajustable y reposabrazos acolchados para mayor comodidad durante largas horas de trabajo.",
+      "price": 120.99,
+      "category": "Muebles de Oficina",
+      "materials": ["Cuero sintético", "Madera", "Metal"],
+      "dimensions": {
+        "width": "60 cm",
+        "height": "120 cm",
+        "depth": "60 cm"
+      },
+      "colorsAvailable": ["Negro", "Gris", "Azul"],
+      "images": [
+        "https://example.com/images/silla-oficina-negro.jpg",
+        "https://example.com/images/silla-oficina-gris.jpg"
+      ],
+      "stock": 25,
+      "createdAt": "2024-08-15T10:00:00Z",
+      "updatedAt": "2024-09-10T15:30:00Z"
     },
-    "colorsAvailable": ["Negro", "Gris", "Azul"],
-    "images": [
-      "https://example.com/images/silla-oficina-negro.jpg",
-      "https://example.com/images/silla-oficina-gris.jpg"
-    ],
-    "stock": 25,
-    "createdAt": "2024-08-15T10:00:00Z",
-    "updatedAt": "2024-09-10T15:30:00Z"
-  },
-  {
-    "id": "2",
-    "name": "Escritorio de Madera",
-    "description": "Escritorio moderno de madera con superficie espaciosa y cajones integrados para almacenamiento.",
-    "price": 250.0,
-    "category": "Muebles de Oficina",
-    "materials": ["Madera", "Metal"],
-    "dimensions": {
-      "width": "120 cm",
-      "height": "75 cm",
-      "depth": "60 cm"
+    {
+      "id": "2",
+      "name": "Escritorio de Madera",
+      "description": "Escritorio moderno de madera con superficie espaciosa y cajones integrados para almacenamiento.",
+      "price": 250.0,
+      "category": "Muebles de Oficina",
+      "materials": ["Madera", "Metal"],
+      "dimensions": {
+        "width": "120 cm",
+        "height": "75 cm",
+        "depth": "60 cm"
+      },
+      "colorsAvailable": ["Madera Natural", "Blanco"],
+      "images": [
+        "https://example.com/images/escritorio-madera-natural.jpg",
+        "https://example.com/images/escritorio-blanco.jpg"
+      ],
+      "stock": 15,
+      "createdAt": "2024-07-22T09:30:00Z",
+      "updatedAt": "2024-09-01T12:00:00Z"
     },
-    "colorsAvailable": ["Madera Natural", "Blanco"],
-    "images": [
-      "https://example.com/images/escritorio-madera-natural.jpg",
-      "https://example.com/images/escritorio-blanco.jpg"
-    ],
-    "stock": 15,
-    "createdAt": "2024-07-22T09:30:00Z",
-    "updatedAt": "2024-09-01T12:00:00Z"
-  },
-  {
-    "id": "3",
-    "name": "Lámpara de Escritorio LED",
-    "description": "Lámpara de escritorio LED con intensidad ajustable y base de metal para un estilo moderno y funcional.",
-    "price": 45.75,
-    "category": "Iluminación",
-    "materials": ["Metal", "Plástico"],
-    "dimensions": {
-      "width": "20 cm",
-      "height": "40 cm",
-      "depth": "20 cm"
+    {
+      "id": "3",
+      "name": "Lámpara de Escritorio LED",
+      "description": "Lámpara de escritorio LED con intensidad ajustable y base de metal para un estilo moderno y funcional.",
+      "price": 45.75,
+      "category": "Iluminación",
+      "materials": ["Metal", "Plástico"],
+      "dimensions": {
+        "width": "20 cm",
+        "height": "40 cm",
+        "depth": "20 cm"
+      },
+      "colorsAvailable": ["Blanco", "Negro"],
+      "images": [
+        "https://example.com/images/lampara-led-blanco.jpg",
+        "https://example.com/images/lampara-led-negro.jpg"
+      ],
+      "stock": 60,
+      "createdAt": "2024-06-10T08:45:00Z",
+      "updatedAt": "2024-09-05T10:15:00Z"
     },
-    "colorsAvailable": ["Blanco", "Negro"],
-    "images": [
-      "https://example.com/images/lampara-led-blanco.jpg",
-      "https://example.com/images/lampara-led-negro.jpg"
-    ],
-    "stock": 60,
-    "createdAt": "2024-06-10T08:45:00Z",
-    "updatedAt": "2024-09-05T10:15:00Z"
-  },
-  {
-    "id": "4",
-    "name": "Cojín Decorativo",
-    "description": "Cojín decorativo con funda de algodón, ideal para añadir un toque de confort y estilo a cualquier habitación.",
-    "price": 18.3,
-    "category": "Decoración",
-    "materials": ["Algodón", "Relleno de fibra"],
-    "dimensions": {
-      "width": "45 cm",
-      "height": "45 cm",
-      "depth": "10 cm"
+    {
+      "id": "4",
+      "name": "Cojín Decorativo",
+      "description": "Cojín decorativo con funda de algodón, ideal para añadir un toque de confort y estilo a cualquier habitación.",
+      "price": 18.3,
+      "category": "Decoración",
+      "materials": ["Algodón", "Relleno de fibra"],
+      "dimensions": {
+        "width": "45 cm",
+        "height": "45 cm",
+        "depth": "10 cm"
+      },
+      "colorsAvailable": ["Beige", "Azul Marino", "Verde Oliva"],
+      "images": [
+        "https://example.com/images/cojin-decorativo-beige.jpg",
+        "https://example.com/images/cojin-decorativo-azul.jpg"
+      ],
+      "stock": 100,
+      "createdAt": "2024-08-01T14:00:00Z",
+      "updatedAt": "2024-09-08T16:00:00Z"
     },
-    "colorsAvailable": ["Beige", "Azul Marino", "Verde Oliva"],
-    "images": [
-      "https://example.com/images/cojin-decorativo-beige.jpg",
-      "https://example.com/images/cojin-decorativo-azul.jpg"
-    ],
-    "stock": 100,
-    "createdAt": "2024-08-01T14:00:00Z",
-    "updatedAt": "2024-09-08T16:00:00Z"
-  },
-  {
-    "id": "5",
-    "name": "Reloj de Pared Vintage",
-    "description": "Reloj de pared con diseño vintage y números romanos, ideal para añadir un toque clásico a cualquier espacio.",
-    "price": 89.99,
-    "category": "Decoración",
-    "materials": ["Madera", "Vidrio", "Metal"],
-    "dimensions": {
-      "width": "40 cm",
-      "height": "40 cm",
-      "depth": "5 cm"
-    },
-    "colorsAvailable": ["Madera Oscura", "Madera Clara"],
-    "images": [
-      "https://example.com/images/reloj-vintage-madera-oscura.jpg",
-      "https://example.com/images/reloj-vintage-madera-clara.jpg"
-    ],
-    "stock": 12,
-    "createdAt": "2024-07-30T11:00:00Z",
-    "updatedAt": "2024-09-07T17:45:00Z"
-  }
-]
+    {
+      "id": "5",
+      "name": "Reloj de Pared Vintage",
+      "description": "Reloj de pared con diseño vintage y números romanos, ideal para añadir un toque clásico a cualquier espacio.",
+      "price": 89.99,
+      "category": "Decoración",
+      "materials": ["Madera", "Vidrio", "Metal"],
+      "dimensions": {
+        "width": "40 cm",
+        "height": "40 cm",
+        "depth": "5 cm"
+      },
+      "colorsAvailable": ["Madera Oscura", "Madera Clara"],
+      "images": [
+        "https://example.com/images/reloj-vintage-madera-oscura.jpg",
+        "https://example.com/images/reloj-vintage-madera-clara.jpg"
+      ],
+      "stock": 12,
+      "createdAt": "2024-07-30T11:00:00Z",
+      "updatedAt": "2024-09-07T17:45:00Z"
+    }
+  ]
+}
